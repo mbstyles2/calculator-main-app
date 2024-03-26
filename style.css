@@ -287,12 +287,11 @@ fieldset {
   .keys {
     grid-template-columns: repeat(4, 1fr); 
   }
- 
- 
 
- .keys > button{
-    min-width: 25px;
-    text-align: center;
+ .keys > button:nth-child(4), 
+ .keys > button:nth-child(8) {
+ grid-column: span ; /* Adjust span for larger buttons on smaller screens */
+ width: 80px; /* Adjust button width for smaller screens */
  }
  
  
