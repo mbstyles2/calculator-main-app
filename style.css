@@ -26,7 +26,7 @@ body{
   
   #theme{
     display: inline;
- 
+    position: relative;
   }
   
   
@@ -279,6 +279,23 @@ fieldset {
  .top{
  gap : 70px;
  }
+ 
+ #theme{
+  left: 90px;
+ }
+ 
+ .c-toggle{
+  position : relative;
+  left: 20px;
+ }
+ 
+ p{
+  font-size: 15px;
+ }
+ 
+ .display-result{
+  margin-top: 30px;
+ }
   
   .calculator {
     min-width: 15em;
@@ -287,8 +304,10 @@ fieldset {
   .keys {
     grid-template-columns: repeat(4, 1fr); 
   }
+ 
+ 
 
-  .keys > button{
+ .keys > button{
     min-width: 25px;
     text-align: center;
  }
@@ -296,8 +315,11 @@ fieldset {
  .keys > button:nth-child(4), 
  .keys > button:nth-child(8) {
  grid-column: span ; /* Adjust span for larger buttons on smaller screens */
- width: 80px; /* Adjust button width for smaller screens */
+ width: 80px; 
  }
+ 
+ 
+ 
   .keys > button:nth-child(17), 
   .keys > button:nth-child(18) {
     grid-column: span 2; /* Adjust span for larger buttons on smaller screens */
