@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator app</title>
+</head>
+<body>
+
+    <div class="calculator">
+            <div class="top">
+                <p>calc</p>
+                <p id="theme">THEME</p>
+                <fieldset aria-label="theme switcher" role="radiogroup" class="theme-switcher">
+                <div class="c-toggle">
+                   <div class="input-wrapper">
+                        <input type="radio" name="theme" id="dark" value="dark">
+                            <label for="dark" data-color="dark"><span class="sr-only">1</span></label>
+                    </div>
+                    <div class="input-wrapper">
+                            <input type="radio" name="theme" id="light" value="light" checked>
+                            <label for="light" data-color="light"><span class="sr-only">2</span></label>
+                    </div>
+                        <div class="input-wrapper">
+                            <input type="radio" name="theme" id="pink" value="pink">
+                            <label for="pink" data-color="pink"><span class="sr-only">3</span></label>
+                    </div>
+                        
+                </div>
+            </div>
+
+            <div class=" display-result">
+                    
+            </div>
+
+            
+            
+
+        <div class="keys">
+            <button id="button">7</button> 
+            <button id="button">8</button>
+            <button id="button">9</button>
+            <button class="reset" data-action="del">DEL</button>
+            <button id="button">4</button> 
+            <button id="button">5</button>
+            <button id="button">6</button>
+            <button class="operator"  data-action="add">+</button>
+            <button id="button">1</button> 
+            <button id="button">2</button>
+            <button id="button">3</button>
+            <button class="operator" data-action="sub">-</button>
+            <button class="operator" data-action="decimal">.</button>
+            <button id="button">0</button>
+            <button class="operator" data-action="div">/</button>
+            <button class="operator"data-action="mul">x</button>
+            <button class="eqrt reset" data-action="reset">RESET</button>
+            <button class="eqrt equal" data-action="calculate">=</button>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
