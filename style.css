@@ -305,6 +305,10 @@ fieldset {
     grid-template-columns: repeat(4, 1fr); 
   }
  
+   .reset{
+  padding: 17px 10px;
+  
+  }
  
 
  .keys > button{
@@ -315,7 +319,7 @@ fieldset {
  .keys > button:nth-child(4), 
  .keys > button:nth-child(8) {
  grid-column: span ; /* Adjust span for larger buttons on smaller screens */
- width: 80px; 
+ width: 74px; 
  }
  
  
