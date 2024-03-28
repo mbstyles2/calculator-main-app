@@ -96,9 +96,10 @@ body{
     top: 0;
     z-index: 1;
   }
+ #theme{
+    left: 190px;
+   }
   
- 
-
 .reset{
     background-color:var(--reset) ;
     color: white;
